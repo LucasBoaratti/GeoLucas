@@ -2,4 +2,35 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
+    .links {
+        list-style-type: none;
+        display: flex;
+        gap: 1.875rem;
+
+        a {
+            text-decoration: none;
+            color: #000;
+            cursor: pointer;
+            position: relative;
+            padding-bottom: 4px;
+
+            &.ativo {
+                color: var(--cor-fonte-primaria);
+                font-weight: bold;
+
+                &::after {
+                    content: "";
+                    width: 30%;
+                    height: 3px;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    background-color: var(--cor-fonte-primaria);
+                    border-radius: 5px;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
 }

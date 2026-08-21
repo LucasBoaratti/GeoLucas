@@ -6,11 +6,13 @@
   font-family: "Rubik", sans-serif;
 }
 
+/* Fonte de títulos */
 @font-face {
   font-family: "Outfit";
   src: url("./assets/Fonts/Outfit-Regular.ttf") format("truetype");
 }
 
+/* Fonte geral */
 @font-face {
   font-family: "Rubik";
   src: url("./assets/Fonts/Rubik-Regular.ttf") format("truetype");

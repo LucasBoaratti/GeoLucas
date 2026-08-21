@@ -4,20 +4,4 @@
     align-items: center;
     height: 5rem;
     padding: 25px;
-
-    .cabecalho {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-
-        .logo {
-            width: 3.125rem;
-            height: 3.75rem;
-        }
-
-        .tituloCabecalho {
-            font-family: var(--fonte-titulos);
-            font: bolder;
-        }
-    }
 }

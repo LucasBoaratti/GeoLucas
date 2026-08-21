@@ -1,7 +1,7 @@
-.cabecalho {
+.logoMarca {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
 
     .logo {
         width: 3.125rem;
@@ -11,5 +11,13 @@
     .tituloCabecalho {
         font-family: var(--fonte-titulos);
         font: bolder;
+    }
+
+    &.preto .tituloCabecalho {
+        color: #000;
+    }
+
+    &.branco .tituloCabecalho {
+        color: #fff;
     }
 }

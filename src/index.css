@@ -27,10 +27,12 @@
   --cor-fonte-primaria: #0369A1;
   --cor-fonte-secundaria: #15803D;
   --cor-fonte-terciaria: #B91C1C;
+  --cor-fonte-rodape: #94A3B8;
   --cor-rodape: #0F172A;
   /* Fontes */
   --fonte-titulos: "Outfit", sans-serif;
   --fonte-geral: "Rubik", sans-serif;
+  --tamanho-fonte-geral: 1rem;
   /* Bordas */
   --borda-cards: 25px;
   --borda-botoes: 10px;

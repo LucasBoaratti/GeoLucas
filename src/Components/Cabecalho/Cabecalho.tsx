@@ -5,7 +5,7 @@ import { LogoMarca } from "../LogoMarca/LogoMarca";
 export function Cabecalho() {
     return (
         <header className={styles.containerCabecalho}>
-            <LogoMarca/>
+            <LogoMarca corTexto="preto"/>
             <BarraNavegacao/>
         </header>
     );

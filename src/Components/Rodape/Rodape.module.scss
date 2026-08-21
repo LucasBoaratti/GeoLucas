@@ -1,0 +1,11 @@
+.containerRodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-rodape);
+    gap: 1.5625rem;
+    padding: 2.5rem;
+    color: var(--cor-fonte-rodape);
+    font-size: var(--tamanho-fonte-geral);
+}

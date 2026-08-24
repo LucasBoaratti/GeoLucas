@@ -7,7 +7,8 @@ export function Index() {
         <div style={{
             display: "flex",
             flexDirection: "column",
-            minHeight: "100vh"
+            minHeight: "100vh",
+            backgroundColor: "#F8FAFC",
         }}>
             <Cabecalho/>
             <div style={{ flex: "1" }}>

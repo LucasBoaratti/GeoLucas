@@ -1,5 +1,6 @@
 import styles from "./Home.module.scss";
 import Banner from "../../assets/Images/Banner.png";
+import { Card } from "../../Components/Cards/Card";
 
 export function Home() {
     return (
@@ -17,6 +18,11 @@ export function Home() {
                 <section>
                     <img src={Banner} alt="Banner colorido com diversos materiais matemáticos" className={styles.banner}/>
                 </section>
+            </section>
+            <section className={styles.containerConteudos} id="conteudos">
+                <h2 className={styles.tituloConteudos}>Nossos conteúdos</h2>
+                <p className={styles.explicacaoConteudos}>Escolha um conteúdo para mergulhar em explicações visuais e simulações em gráficos divertidos.</p>
+                <Card/>
             </section>
         </main>
     );

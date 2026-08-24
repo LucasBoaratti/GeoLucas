@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     max-width: 90rem;
-    gap: 3.75rem;
+    gap: 7.5rem;
     padding: 5rem 0;
 
     .containerBoasVindas {
@@ -15,7 +16,7 @@
 
         .tituloBoasVindas {
             font-family: var(--fonte-titulos);
-            font-size: 45px;
+            font-size: 2.8125rem;
         }
 
         .explicacao {
@@ -36,12 +37,35 @@
                 width: 13.125rem;
                 height: 3.125rem;
                 font-size: 1rem;
+                transform: scale(1);
                 cursor: pointer;
+            }
+
+            .botaoConteudos:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
             }
         }
     }
 
     .banner {
         height: 25rem;
+    }
+}
+
+.containerConteudos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .tituloConteudos {
+        font-family: var(--fonte-titulos);
+        font-size: 2.1875rem;
+        margin-bottom: 15px;
+    }
+
+    .explicacaoConteudos {
+        margin-bottom: 3.125rem;
     }
 }

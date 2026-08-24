@@ -13,10 +13,12 @@
         font: bolder;
     }
 
+    // Título do cabeçalho para fundos claros
     &.preto .tituloCabecalho {
         color: #000;
     }
 
+    // Título do cabeçalho para fundos escuros
     &.branco .tituloCabecalho {
         color: #fff;
     }

@@ -1,0 +1,47 @@
+.containerIntroducao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 90rem;
+    gap: 3.75rem;
+    padding: 5rem 0;
+
+    .containerBoasVindas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 26.875rem;
+        gap: 1.5rem;
+
+        .tituloBoasVindas {
+            font-family: var(--fonte-titulos);
+            font-size: 45px;
+        }
+
+        .explicacao {
+            font-size: var(--tamanho-fonte-grande);
+            text-align: left;
+        }
+
+        .botao {
+            display: flex;
+            justify-content: center;
+
+            .botaoConteudos {
+                padding: 8px 16px;
+                background-color: var(--cor-rodape);
+                color: #fff;
+                border-radius: var(--borda-botoes);
+                border: none;
+                width: 13.125rem;
+                height: 3.125rem;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .banner {
+        height: 25rem;
+    }
+}

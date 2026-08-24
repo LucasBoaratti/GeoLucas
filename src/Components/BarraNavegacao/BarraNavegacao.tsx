@@ -9,10 +9,6 @@ export function BarraNavegacao() {
             rota: "/",
         },
         {
-            nome: "Conteúdos",
-            rota: "/conteudos",
-        },
-        {
             nome: "Sobre",
             rota: "/sobre",
         },
@@ -25,7 +21,7 @@ export function BarraNavegacao() {
                     <li key={rota.rota}>
                         <NavLink
                             to={rota.rota}
-                            className={({ isActive }) => isActive ? `${styles.ativo}` : styles.link}
+                            className={({ isActive }) => isActive ? `${styles.ativo}` : ""}
                         >
                             {rota.nome}
                         </NavLink>

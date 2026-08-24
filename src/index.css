@@ -31,8 +31,8 @@
   --cor-rodape: #0F172A;
   /* Fontes */
   --fonte-titulos: "Outfit", sans-serif;
-  --fonte-geral: "Rubik", sans-serif;
   --tamanho-fonte-geral: 1rem;
+  --tamanho-fonte-grande: 1.125rem;
   /* Bordas */
   --borda-cards: 25px;
   --borda-botoes: 10px;

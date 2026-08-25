@@ -1,27 +1,36 @@
 .containerCards {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1.5625rem;
     margin-bottom: 6.25rem;
 
     .card {
         display: flex;
         flex-direction: column;
-        gap: 1.25rem;
+        justify-content: center;
+        align-items: baseline;
         max-width: 13.75rem;
-        max-height: 25rem;
+        height: 22.5rem;
         border: none;
         border-radius: var(--borda-cards);
         background-color: #fff;
+        overflow: hidden;
 
         .imagem {
             border-top-left-radius: var(--borda-cards);
             border-top-right-radius: var(--borda-cards);
             width: 13.75rem;
             height: 10rem;
+            object-fit: fill;
         }
 
         .conteudo {
             padding: 1rem 1.5625rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex: 1;
 
             .nome {
                 font-family: var(--fonte-titulos);
@@ -31,6 +40,11 @@
             .descricao {
                 text-align: left;
                 margin-bottom: 10px;
+                display: -webkit-box;
+                line-clamp: 3;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
             }
 
             .botao {
@@ -47,6 +61,13 @@
                     color: var(--cor-fonte-primaria);
                     font-size: 15px;
                     font-weight: bold;
+                    cursor: pointer;
+                    transform: scale(1);
+
+                    &.botaoCard:active {
+                        transform: scale(0.95);
+                        transition: transform 0.2s ease-in-out;
+                    }
 
                     &.verde {
                         background-color: var(--cor-secundaria);
@@ -54,7 +75,7 @@
                     }
 
                     &.vermelho {
-                        background-color: var(--cor-fonte-terciaria);
+                        background-color: var(--cor-terciaria);
                         color: var(--cor-fonte-terciaria);
                     }
                 }

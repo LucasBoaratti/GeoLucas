@@ -11,12 +11,21 @@ export function Home() {
                     <p className={styles.explicacao}>GeoLucas é uma plataforma educativa dedicada a tornar a matemática acessível, visual e profundamente interessante para todos os estudantes e universitários.</p>
                     <div className={styles.botao}>
                         <a href="#conteudos">
-                            <button type="button" className={styles.botaoConteudos}>Explorar conteúdos</button>
+                            <button 
+                                type="button" 
+                                className={styles.botaoConteudos}
+                            >
+                                Explorar conteúdos
+                            </button>
                         </a>
                     </div>
                 </section>
                 <section>
-                    <img src={Banner} alt="Banner colorido com diversos materiais matemáticos" className={styles.banner}/>
+                    <img 
+                        src={Banner} 
+                        alt="Banner colorido com diversos materiais matemáticos" 
+                        className={styles.banner}
+                    />
                 </section>
             </section>
             <section className={styles.containerConteudos} id="conteudos">

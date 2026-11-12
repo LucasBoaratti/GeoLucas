@@ -1,0 +1,66 @@
+.containerInputFuncoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5625rem;
+    padding: 1.5625rem;
+    border-radius: var(--borda-cards);
+    background-color: #fff;
+
+    .topico {
+        font-weight: bold;
+        color: var(--cor-fonte-primaria);
+    }
+
+    .categorias {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        .botao {
+            padding: 5px 10px;
+            font-size: var(--tamanho-fonte-geral);
+            font-weight: bold;
+            border-radius: var(--borda-botoes);
+            color: #475569;
+            cursor: pointer;
+        }
+    }
+
+    .coeficientes {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .input {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+
+            .coeficienteInput {
+                height: 2.1875rem;
+                border-radius: var(--borda-botoes);
+                border: 1px solid #E2E8F0;
+                padding-left: 5px;
+                font-size: var(--tamanho-fonte-geral);
+            }
+        }
+    }
+
+    .botaoFuncao {
+        display: flex;
+        justify-content: center;
+
+        .botaoPlotarFuncao {
+            width: 100%;
+            height: 2.5rem;
+            background-color: var(--cor-rodape);
+            color: #fff;
+            border-radius: var(--borda-botoes);
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.containerGrafico {
+    background-color: #fff;
+    padding: 1.5625rem;
+    border-radius: var(--borda-cards);
+
+    .textoVisualizacao {
+        margin-bottom: 15px;
+    }
+
+    .grafico {
+        width: 40rem;
+        height: 28.75rem;
+    }
+}
